@@ -1,38 +1,223 @@
-.App {
-  text-align: center;
+/*-----seccion1-----------*/
+.seccion_1_conteiner {
+  background: rgba(39, 38, 38, 1);
+  color: white;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  height: 394px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.imagen1 {
+  position: absolute;
+  width: 344px;
+  height: 302px;
+  left: 40px;
+  top: 15px;
+}
+.imagen2 {
+  position: absolute;
+  width: 332px;
+  height: 306px;
+  left: 244px;
+  top: 61px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.seccion_1_text {
+  color: white;
+  font-weight: bold;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.seccion_1_text p {
+  font-size: 21px;
+  padding-left: 150px;
+}
+.seccion_1_text h1 {
+  text-align: start;
+  padding-left: 50px;
+  font-size: 48px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+/*-----seccion2-----------*/
+.seccion_2_conteiner {
+  padding: 40px;
+}
+.seccion_2_img img {
+  width: 420px;
+  height: 304px;
+  margin-left: 20%;
+}
+.seccion_2_text {
+  font-size: 32px;
+  font-family: Roboto;
+  margin: 5%;
+  font-style: normal;
+  font-weight: bold;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/*-----seccion3-----------*/
+.Seccion_3 {
+  display: grid; /*DEFINIMOS LA GRID*/
+  grid-template-columns: repeat(
+    3,
+    1fr
+  ); /*INDICAMOS CUANTAS SECCIONES TENDRA LA GRID*/
+  list-style: none;
+  color: white;
+  justify-items: center;
+}
+
+/*SECCION DE TEXTOS*/
+.Seccion_3_item_text {
+  background: rgba(0, 0, 0, 0.71);
+  display: block;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+}
+
+/*SECCION DE ITEMS*/
+.Seccion_3_item_1 {
+  height: 200px;
+  width: 316.73px;
+  margin: 15px;
+  padding-top: 15%;
+  border-radius: 20px;
+  background-image: url(./img/item1.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+
+.Seccion_3_item_2 {
+  height: 200px;
+  width: 316.73px;
+  margin: 15px;
+  padding-top: 15%;
+  border-radius: 20px;
+  background-image: url(./img/item2.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+
+.Seccion_3_item_3 {
+  height: 200px;
+  width: 316.73px;
+  margin: 15px;
+  padding-top: 15%;
+  border-radius: 20px;
+  background-image: url(./img/item3.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+
+.Seccion_3_item_4 {
+  height: 200px;
+  width: 316.73px;
+  margin: 15px;
+  padding-top: 15%;
+  border-radius: 20px;
+  background-image: url(./img/item4.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+
+.Seccion_3_item_5 {
+  height: 200px;
+  width: 316.73px;
+  margin: 15px;
+  padding-top: 15%;
+  border-radius: 20px;
+  background-image: url(./img/item5.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+
+.Seccion_3_item_6 {
+  height: 200px;
+  width: 316.73px;
+  margin: 15px;
+  padding-top: 15%;
+  border-radius: 20px;
+  background-image: url(./img/item6.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+
+.Seccion_3_item_7 {
+  height: 200px;
+  width: 316.73px;
+  margin: 15px;
+  padding-top: 15%;
+  border-radius: 20px;
+  background-image: url(./img/item7.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+
+.Seccion_3_item_8 {
+  height: 200px;
+  width: 316.73px;
+  margin: 15px;
+  padding-top: 15%;
+  border-radius: 20px;
+  background-image: url(./img/item8.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+
+.Seccion_3_item_9 {
+  height: 200px;
+  width: 316.73px;
+  margin: 15px;
+  padding-top: 15%;
+  border-radius: 20px;
+  background-image: url(./img/item9.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+
+.Seccion_3_item_10 {
+  height: 200px;
+  width: 316.73px;
+  margin: 15px;
+  padding-top: 15%;
+  border-radius: 20px;
+  background-image: url(./img/item10.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+.Seccion_3_item_11 {
+  height: 200px;
+  width: 316.73px;
+  margin: 15px;
+  padding-top: 15%;
+  border-radius: 20px;
+  background-image: url(./img/item11.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+.Seccion_3_item_12 {
+  height: 200px;
+  width: 316.73px;
+  margin: 15px;
+  padding-top: 15%;
+  border-radius: 20px;
+  background-image: url(./img/item12.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+
+.ContenedorBotoncitos .ant-btn.ant-btn-link {
+  background-color: rgba(32, 115, 3, 1);
+  border-radius: 15px;
+  color: white;
+}
+.ContenedorBotoncitos {
+  display: flex;
+  justify-content: center;
+  margin: 15px;
 }

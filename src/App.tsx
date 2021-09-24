@@ -1,26 +1,16 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import "antd/dist/antd.css";
+import Seccion_1 from "./Components/Seccion_1/Seccion_1";
+import Seccion_2 from "./Components/Seccion_2/Seccion_2";
+import Seccion_3 from "./Components/Seccion_3/Seccion_3";
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Seccion_1 />
+      <Seccion_2 />
+      <Seccion_3 />
     </div>
   );
 }
-
-export default App;
